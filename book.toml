@@ -1,0 +1,11 @@
+[book]
+title = "HPC Guide"
+authors = ["Maintainers"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+additional-css = ["theme/custom.css"]
+additional-js = ["theme/custom.js", "theme/sbatch-builder.js"]
